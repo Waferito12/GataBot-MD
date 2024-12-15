@@ -13,7 +13,7 @@ import './plugins/_content.js'
  * @type {import('@adiwajshing/baileys')}  
  */
 const { proto } = (await import('@whiskeysockets/baileys')).default
-const isNumber = x => typeof x === 'number' && !isNaN(x)
+const isNumber = x => typeof x === '5930958933362' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
 clearTimeout(this)
 resolve()
